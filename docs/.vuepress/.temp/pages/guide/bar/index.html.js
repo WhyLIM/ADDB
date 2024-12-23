@@ -1,0 +1,3 @@
+import comp from "D:/Study/Project/GDG/ADDB/ADDB/docs/.vuepress/.temp/pages/guide/bar/index.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/bar/\",\"title\":\"Bar feature\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Bar feature\",\"icon\":\"lightbulb\"},\"headers\":[{\"level\":2,\"title\":\"Introduction\",\"slug\":\"introduction\",\"link\":\"#introduction\",\"children\":[]},{\"level\":2,\"title\":\"Details\",\"slug\":\"details\",\"link\":\"#details\",\"children\":[]}],\"git\":{},\"readingTime\":{\"minutes\":0.05,\"words\":15},\"filePathRelative\":\"guide/bar/README.md\"}")
+export { comp, data }

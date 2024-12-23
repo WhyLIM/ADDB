@@ -1,0 +1,3 @@
+import comp from "D:/Study/Project/GDG/ADDB/ADDB/docs/.vuepress/.temp/pages/portfolio.html.vue"
+const data = JSON.parse("{\"path\":\"/portfolio.html\",\"title\":\"Portfolio Home\",\"lang\":\"en-US\",\"frontmatter\":{\"home\":true,\"portfolio\":true,\"title\":\"Portfolio Home\",\"icon\":\"home\",\"name\":\"Conan Edogawa\",\"avatar\":\"https://theme-hope-assets.vuejs.press/hero/conan.png\",\"titles\":[\"Genius young detective\",\"Lan’s childhood sweetheart\",\"The biggest rival of the black organization\"],\"footer\":false},\"headers\":[{\"level\":2,\"title\":\"Description\",\"slug\":\"description\",\"link\":\"#description\",\"children\":[]}],\"git\":{},\"readingTime\":{\"minutes\":0.25,\"words\":74},\"filePathRelative\":\"portfolio.md\"}")
+export { comp, data }

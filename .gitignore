@@ -1,0 +1,78 @@
+# Node.js dependencies
+/node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+.vscode/
+
+# Static build files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+
+# IDE and editor specific files
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Git-specific files
+*.orig
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Vite files
+.vite/
+.vitepress/
+
+# Ignore lock files if not required for development
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Ignore backend uploads or generated files
+backend/public/uploads/
+
+# Compiled or built files
+*.out
+*.map
+*.gz
+
+# Vue-specific
+**/dist/
+**/coverage/
+
+# Ignore documentation build outputs
+docs/.vuepress/dist/
+
+# Specific files and directories to ignore
+/public/
+src/assets/generated/
+src/assets/temp/
+src/assets/dev/

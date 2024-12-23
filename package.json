@@ -1,0 +1,42 @@
+{
+  "name": "addb",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "docs:build": "vuepress-vite build docs",
+    "docs:clean-dev": "vuepress-vite dev docs --clean-cache",
+    "docs:dev": "vuepress-vite dev docs",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.7",
+    "cytoscape": "^3.30.3",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.8.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "prettier": "^3.2.5",
+    "vite": "^5.3.1",
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "sass-embedded": "^1.79.5",
+    "vue": "^3.5.12",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-theme-hope": "2.0.0-rc.59"
+  }
+}
