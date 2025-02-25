@@ -53,7 +53,7 @@ function searchBiomarkers() {
 
 <style scoped>
 .hero {
-    background-image: url('background.jpg');
+    background-image: url('/background.jpg');
     background-size: cover;
     background-position: center;
     padding: 210px 0;

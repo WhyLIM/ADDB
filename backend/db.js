@@ -8,9 +8,9 @@ dotenv.config();
 // 创建数据库连接池
 const pool = mysql.createPool({
     host: process.env.DB_HOST || 'localhost',
-    user: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || '913915',
-    database: process.env.DB_NAME || 'admarker_db',
+    user: process.env.DB_USER || 'addb',
+    password: process.env.DB_PASSWORD || 'lm000923',
+    database: process.env.DB_NAME || 'addb',
     waitForConnections: true,
     connectionLimit: process.env.DB_CONNECTION_LIMIT || 10,
     queueLimit: process.env.DB_QUEUE_LIMIT || 0,

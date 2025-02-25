@@ -83,7 +83,7 @@ const footerColumns = [
         content: [
             "Email: support@addb.com",
             "Phone: +1 (234) 567-890",
-            "Twitter: @addb",
+            "Address: No. 1, Shizi Street, Gusu District, Suzhou; No. 106, Zhongshan 2nd Road, Guangzhou"
         ],
     },
 ];

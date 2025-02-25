@@ -72,7 +72,6 @@ backend/public/uploads/
 docs/.vuepress/dist/
 
 # Specific files and directories to ignore
-/public/
 src/assets/generated/
 src/assets/temp/
 src/assets/dev/

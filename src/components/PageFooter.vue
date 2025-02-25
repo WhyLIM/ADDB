@@ -3,9 +3,11 @@
         <div class="footer-container">
             <!-- 静态列 -->
             <div class="footer-column">
+                <img src="/suda.png" alt="Organization Logo" class="footer-logo" />
                 <img src="/gdph.png" alt="Organization Logo" class="footer-logo" />
-                <p>Address: No. 106, Zhongshan 2nd Road, Guangzhou</p>
-                <p>&copy; 2024 ADDB. ALL RIGHTS RESERVED</p>
+                <!-- <p>Address: No. 106, Zhongshan 2nd Road, Guangzhou</p> -->
+                <p style="margin-left: 20px;">&copy; 2024-{{ new Date().getFullYear() }} ADDB.</p>
+                <p style="margin-left: 20px;"> ALL RIGHTS RESERVED</p>
             </div>
             <!-- 动态生成列 -->
             <div v-for="column in props.columns" :key="column.title" class="footer-column">
@@ -65,10 +67,11 @@ const props = defineProps({
     flex: 1;
     min-width: 200px;
     margin: 0 20px;
+    /* text-align: center; */
 }
 
 .footer-column h3 {
-    margin-bottom: 15px;
+    margin: 15px 0;
     font-size: 18px;
     font-weight: bold;
     color: #f1f1f1;
@@ -94,8 +97,9 @@ const props = defineProps({
 }
 
 .footer-logo {
-    height: 55px;
-    margin-bottom: 10px;
+    /* height: 55px; */
+    width: 180px;
+    /* margin-bottom: 10px; */
 }
 
 @media (max-width: 768px) {
